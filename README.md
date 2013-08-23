@@ -15,5 +15,4 @@ Add GridFieldSiteTree_PageHolderExtension as an Extension to the page you're add
 Add the GridField to the pagetype
 
 	:::php
-	$entries_config = GridFieldSiteTree_GridFieldConfig::create();
-	new GridField('BlogPages', 'Blog pages', $this->AllChildren(), $entries_config);
+	$fields->addFieldToTab('Root.Pages', $this->getGridFieldSiteTreeField('BlogPages', 'Blog pages', $this->AllChildren()));
