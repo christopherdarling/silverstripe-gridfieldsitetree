@@ -1,0 +1,19 @@
+{
+	"name": "christopherdarling/silverstripe-gridfieldsitetree",
+	"type": "silverstripe-module",
+	"description": "A SilverStripe Module that allows you to manage children SiteTree pages via GridField",
+	"homepage": "http://www.christopherdarling.co.uk",
+	"license": "MIT",
+	"keywords": ["silverstripe", "framework", "sitetree", "gridfield", "versioning"],
+	"authors": [
+		{
+			"name": "Christopher Darling",
+			"homepage": "http://www.christopherdarling.co.uk"
+		}
+	],
+	"require": {
+		"php": ">=5.3.2",
+        "silverstripe/framework": "~3.1",
+        "silverstripe/cms": "~3.1"
+    }
+}
