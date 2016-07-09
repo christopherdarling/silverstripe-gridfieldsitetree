@@ -13,10 +13,10 @@ class GridFieldSiteTree_PageHolderExtension extends DataExtension
     {
         return false;
     }
-    
+
     /*
      * Create a GridField to display the pages.
-     * 
+     *
      * @see CMSMain::ListViewForm() heavily based on this code.
      * @param string $name
      * @param string $title
@@ -31,7 +31,7 @@ class GridFieldSiteTree_PageHolderExtension extends DataExtension
             $dataList,
             $config = GridFieldConfig::create()
         );
-        
+
         $config->addComponents(
             new GridFieldSortableHeader(),
             $columns = new GridFieldDataColumns(),
@@ -58,7 +58,7 @@ class GridFieldSiteTree_PageHolderExtension extends DataExtension
                 return '<a class="action-detail" href="' . singleton('CMSPageEditController')->Link('show') . '/' . $item->ID . '">' . $item->TreeTitle . '</a>';
             }
         ));
-        
+
         return $gf;
     }
 }
