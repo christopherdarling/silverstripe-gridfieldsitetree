@@ -1,4 +1,3 @@
-[![Build Status](https://secure.travis-ci.org/christopherdarling/silverstripe-gridfieldsitetree.png)](http://travis-ci.org/christopherdarling/silverstripe-gridfieldsitetree)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/christopherdarling/silverstripe-gridfieldsitetree/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/christopherdarling/silverstripe-gridfieldsitetree/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/christopherdarling/silverstripe-gridfieldsitetree/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/christopherdarling/silverstripe-gridfieldsitetree/?branch=master)
 [![Latest Stable Version](https://poser.pugx.org/christopherdarling/silverstripe-gridfieldsitetree/v/stable.png)](https://packagist.org/packages/christopherdarling/silverstripe-gridfieldsitetree)
